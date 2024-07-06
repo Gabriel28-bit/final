@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <h1>Formulir belajar</h1>
+    <form action="JOIN KUY" method="post">
+        
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="jenengmu" id="name" name="name">
+        <br><br>
+        <label>Alamat email</label>
+        <input type="email" placeholder="email" id="email" name="email">
+        <br><br>
+        <label>Tanggal lahir</label>
+        <input type="date" placeholder="date" id="date" name="date">
+        <br><br>
+        <input type="color">
+        <br>
+    <button type="submit">JOIN KUY</button>
+    </form>
+    <form action="submit" method="get">
+    <hr>
+    <h2>UKT per semester</h2>
+    <label for="user">Mahasiswa</label>
+    <input type="radio" name="UKT per semester" id="user" value="2.000.000"><label for="user">2.000.0000</label> 
+    <input type="radio" name="UKT per semester" id="user" value="3.000.000"><label for="user">3.000.0000</label>
+    <input type="radio" name="UKT per semester" id="user" value="4.000.000"><label for="user">4.000.0000</label>  
+   
+   
+    <div>
+        <label for="pembayaran">Pembayaran</label>
+        <select name="metode" id="pembayaran">
+        <option value="pilihan">--pilihan--</option>
+        <option value="Via Tranfer">Via Transfer</option>
+        <option value="Tatap muka">tatap Muka</option>
+        <option value="Mobile Banking">Mobile Banking</option>
+        <option value="Indomaret/Alfamart">Indomaret/Alfamart</option>
+        <option value="Pinjol">Pinjol</option>
+        </select>
+    </div> 
+    <div>
+        <label for="Persetujuan">Saya menyetujui</label>
+        <input type="checkbox" name="persetujuan" id="persetujuan" value="betul" checked>
+    </div>
+    <br>
+    <div>
+        <label for="critic">Mau protes?</label>
+        <br>
+        <textarea name="critic" id="critic" cols="40" rows="10" placeholder="adakah sesuatu yang ingin kamu katakan kawan??"></textarea>
+    </div>
+    <button type="submit">submit</button>
+    </form>
+</body>
+</html>
